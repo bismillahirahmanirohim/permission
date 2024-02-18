@@ -12,6 +12,8 @@ export NC='\033[0m'
 
 REPO="https://raw.githubusercontent.com/bismillahirahmanirohim/permission/main/"
 
+REPOO="https://autoscript.wongedankuwibebas.my.id/"
+
 # // Export Banner Status Information
 export EROR="[${RED} EROR ${NC}]"
 export INFO="[${YELLOW} INFO ${NC}]"
@@ -180,7 +182,7 @@ systemctl restart xray >/dev/null 2>&1
 systemctl restart nginx >/dev/null 2>&1
 
 #LIMIT QUOTA
-wget -q -O /usr/local/sbin/quota "${REPO}quota.sh"
+wget -q -O /usr/local/sbin/quota "${REPOO}quota.sh"
 chmod +x /usr/local/sbin/quota
 chmod +x /usr/local/sbin/quota
 cd /usr/local/sbin/
